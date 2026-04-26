@@ -11,3 +11,8 @@ objects/
 .vscode/
 # OS
 .DS_Store
+# Large binary installers
+Installers/
+*.tar.gz
+*.tar.xz
+*.zip
