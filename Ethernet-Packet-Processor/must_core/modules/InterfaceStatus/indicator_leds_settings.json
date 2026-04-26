@@ -1,0 +1,22 @@
+[
+    {
+        "name": "eth0",
+        "green_pin": 502,
+        "yellow_pin": 498
+    },
+    {
+        "name": "eth1",
+        "green_pin": 501,
+        "yellow_pin": 497
+    },
+    {
+        "name": "eth2",
+        "green_pin": 504,
+        "yellow_pin": 500
+    },
+    {
+        "name": "eth3",
+        "green_pin": 503,
+        "yellow_pin": 499
+    }
+]

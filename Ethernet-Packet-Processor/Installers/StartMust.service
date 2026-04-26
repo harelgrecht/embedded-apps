@@ -1,0 +1,11 @@
+[Unit]
+Description=Start Must Software
+After=network.target
+
+[Service]
+ExecStart=/home/must/Installers/StartMust.sh
+Type=oneshot
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

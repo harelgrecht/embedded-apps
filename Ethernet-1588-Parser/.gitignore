@@ -1,0 +1,25 @@
+# Ignore VSCode settings
+.vscode/
+
+# Ignore object files and compiled binaries
+objects/
+*.o
+ptp_slave
+
+# Ignore build artifacts
+build/
+*.out
+*.elf
+*.bin
+*.map
+*.log
+
+# Ignore dependency files
+*.d
+*.dep
+
+# Ignore temporary and backup files
+*.swp
+*.swo
+*.bak
+*.tmp

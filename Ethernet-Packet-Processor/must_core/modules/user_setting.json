@@ -1,0 +1,52 @@
+{
+    "eth0": {
+      "name": "eth0",
+      "IpAddress": "192.168.1.10",
+      "destIpAddresses": ["192.168.1.1"],
+      "SrcPorts": [5678],
+      "DestPorts": [1234],
+      "DefaultGateway": "192.168.1.254",
+      "SubnetMask": "255.255.255.0",
+      "RemoteIp": "10.0.0.1",
+      "role": "source1",
+      "RemoteIpDestination": "10.0.0.2"
+    },
+    "eth1": {
+      "name": "eth1",
+      "IpAddress": "192.168.2.10",
+      "destIpAddresses": ["192.168.2.1"],
+      "SrcPorts": [5678],
+      "DestPorts": [1234],
+      "DefaultGateway": "192.168.2.254",
+      "SubnetMask": "255.255.255.0",
+      "RemoteIp": "10.0.0.3",
+      "RemoteIpDestination": "10.0.0.4",
+      "role": "source2"
+    },
+    "eth2": {
+      "name": "eth2",
+      "IpAddress": "192.168.3.10",
+      "destIpAddresses": ["192.168.3.1"],
+      "SrcPorts": [5678],
+      "DestPorts": [1234],
+      "DefaultGateway": "192.168.3.254",
+      "SubnetMask": "255.255.255.0",
+      "RemoteIp": "192.168.3.1",
+      "RemoteIpDestination": "192.168.3.10",
+      "role": "tunnel"
+    },
+    "eth3": {
+      "name": "eth3",
+      "IpAddress": "192.168.4.10",
+      "destIpAddresses": ["192.168.4.1"],
+      "SrcPorts": [5678],
+      "DestPorts": [1234],
+      "DefaultGateway": "192.168.4.254",
+      "SubnetMask": "255.255.255.0",
+      "RemoteIp": "10.0.0.7",
+      "RemoteIpDestination": "10.0.0.8",
+      "role": "source3"
+    },
+    "enableSelfSearch": true
+  }
+  

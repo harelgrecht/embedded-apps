@@ -1,0 +1,27 @@
+[
+    {
+      "selfIp": "192.168.1.20",
+      "ipToPing": "192.168.1.10",
+      "destIpAddresses": ["192.168.1.50"],
+      "srcPorts": [82523],
+      "destPorts": [63535],
+      "defaultGateway": "192.168.1.254",
+      "subnetMask": "255.255.255.0",
+      "remoteIp": "0.0.0.0",
+      "remoteIpDestination": "0.0.0.0",
+      "role": "source1"
+    },
+    {
+      "selfIp": "192.168.2.20",
+      "ipToPing": "192.168.2.10",
+      "destIpAddresses": ["192.168.2.50"],
+      "srcPorts": [82523],
+      "destPorts": [63535],
+      "defaultGateway": "192.168.2.254",
+      "subnetMask": "255.255.255.0",
+      "remoteIp": "0.0.0.0",
+      "remoteIpDestination": "0.0.0.0",
+      "role": "tunnel"
+    }
+]
+  
