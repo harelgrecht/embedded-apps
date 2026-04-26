@@ -1,0 +1,13 @@
+# Build artifacts
+objects/
+*.o
+*.elf
+*.bin
+*.hex
+# IDE / tool generated
+.vscode-ctags
+.pio/
+.metadata/
+.vscode/
+# OS
+.DS_Store
